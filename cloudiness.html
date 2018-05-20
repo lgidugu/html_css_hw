@@ -4,11 +4,15 @@
      
     <title>Latitude</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="styles_hw.css" type = "text/css">    
+    <link rel="stylesheet" href="styles_hw.css" type = "text/css">
+       
 </head>
    
-<div class="col-sm-6 col-md-12">
+<div class="col-sm-3 col-md-12">
     <div class = "navbar"> 
         <div class="active">
        <ul>        
@@ -42,32 +46,35 @@
  </div>
  <body>                           
                           
-        <div class="Outer">                     
-        <div class="InnerLeft">
+    <div class="container">        
+        <div class="row" >
+            <div class="col-sm-6" >
+                <div class = "InnerLeft">  
         <h2><div class = "ptext"><center>Cloudiness</center></div></h2>
         <br></br>
                         
-        <b><img src= "images/Latitude Vs Cloudiness Plot.png"  height = "500", width = "700", alt ="Latitude Vs. Temparature" align = left border = 10px/></b> 
+        <b><img src= "images/Latitude Vs Cloudiness Plot.png"  height = "350", width = "100%", alt ="Latitude Vs. Temparature" align = left border = 10px/></b> 
         <p>The latitude determines how high the cloud is that region. The clouds are located in atmosphere layer called troposphere. Troposphere is more deeper and higher near equator and thinner and lower near poles. The data obtained from different cities demonstrates more clouds near equator and clouds are thinner as the latitude increases. </p>
        </div>                   
     </div>
 
 
+    <div class="col-sm-6" style="background-color:#cce6f1">
+        <div class="InnerRight">
+            <h2><div class = "ptext"><center>Visualizations</center></div></h2> 
+                <img src="images/Latitude Vs Humidity Plot.png"  width = "41%", alt ="Latitude Vs. Humidity"/>                              
 
-<div class="InnerRight">
- <h2><div class = "ptext"><center>Visualizations</center></div></h2>                                                        
+                <img src= "images/Latitude Vs Temparature Plot.png"  width = "41%", alt ="Latitude Vs. Temparature"/>
+    
+                <img src= "images/Latitude Vs Cloudiness Plot.png"  width = "41%", alt ="Latitude Vs. Cloudiness"/>
            
-            <img src="images/Latitude Vs Humidity Plot.png"  height = "230", width = "225", alt ="Latitude Vs. Humidity"/>                              
-                            
-            <img src= "images/Latitude Vs Temparature Plot.png"  height = "230", width = "225", alt ="Latitude Vs. Temparature"/>
-            
-             <img src= "images/Latitude Vs Cloudiness Plot.png"  height = "230", width = "225", alt ="Latitude Vs. Cloudiness"/>
-                   
-            <img src= "images/Latitude Vs Winds Speed Plot.png" height = "230", width = "225", alt ="Latitude Vs. Winds Speed"/>
-            
-    </div>
-</div>             
-
-</body>  
-
+                <img src= "images/Latitude Vs Winds Speed Plot.png" width = "41%", alt ="Latitude Vs. Winds Speed"/>
+        </div>
+    </div> 
+</div>
+</div>                
+</body>
+<footer>
+<br></br>
+</footer>
 </html>

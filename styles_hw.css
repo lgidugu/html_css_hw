@@ -80,8 +80,8 @@ li a {
 
 p {
     text-align: justify;
-    text-indent: 2em;
-    font-size: 20px;
+    text-indent: 1em;
+    font-size: 18px;
 }
 body {
     background: #cce6f1;
@@ -90,41 +90,31 @@ body {
   font-family: 'Times';
   color:green 
   
-}
+}         
+
+.InnerLeft {       
+  position: relative;            
+  background: white;
+  border-radius: 5px;   
+  float: left;
+  margin-left:auto;
+  padding:2%;
+  width:100%;
+
+  }        
+
+.InnerRight {            
+  position: relative;            
+  background: white;
+  border-radius: 5px;
+  margin-left:auto;      
+  float: right; 
+  padding:2%;
+  width:100%;            
+
+  }      
 
 
-
-  .Outer {      
-            
-    border-style: hidden;;            
-    position: relative;            
-    clear: both;              
-    }         
-
-.InnerLeft {            
-
-    width: 50%;            
-    position: relative;            
-    background: white;
-    border-radius: 5px;   
-    float: left;
-    margin-left: 10px;
-    padding:2%;
-
-
-    }        
-
-.InnerRight {
-    width: 40%;        
-    position: relative;            
-    background: white;
-    border-radius: 5px;   
-    float: right; 
-    padding:2%;          
-
-    }        
-
-    
 
 
   

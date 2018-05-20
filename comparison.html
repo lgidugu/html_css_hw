@@ -7,67 +7,67 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="styles_hw.css">
     
-</head>   
-<div class="col-sm-6 col-md-12">
-    <div class = "navbar"> 
-        <div class="active">
-       <ul>        
-           <li "#">
-            <div class = "mainpad">            
-                   
-               <h1><a href="index.html">Latitude</a></h1> 
-            </div>        
-           </li>
+  
+    <div class="col-sm-6 col-md-12">
+        <div class = "navbar"> 
+                <div class="active">
+                  <ul>        
+                     <li "#">
+                        <div class = "mainpad">        
+                                <h1><a href="index.html">Latitude</a></h1> 
+                        </div>        
+                     </li>
         
-           <li style="float:right">        
-                <a href="comparison.html">Comparison</a>         
-           </li>
-           <li style="float:right">        
-                <a href="data.html">Data</a>        
-           </li>               
-            <li style="float:right">
-            
+                     <li style="float:right">        
+                        <a href="comparison.html">Comparison</a>         
+                     </li>
+                     <li style="float:right">        
+                        <a href="data.html">Data</a>        
+                     </li>               
+                     <li style="float:right">
+                        <div class="dropdown">
+                            <button class="dropbtn">Plots</button>
+                                <div class="dropdown-content">
+                                        <a href="max_temparature.html">Max. Temparature</a>
+                                        <a href="humidity.html">Humidity</a>
+                                        <a href="cloudiness.html">Cloudiness</a>
+                                        <a href="wind_speed.html">Wind Speed</a>
+                                </div>
+                        </div>                        
+                    </li>
+                 </ul> 
+        </div>
+   </div>
+</head> 
+<body>
+        <div class="container", , style="background-color: white"> 
+                <h1><div class = "ptext">Comparison:Latitude vs X</div></h1>
+                <br></br>
+                <p>Click on any of the images to get an in depth analysis.</p>
+                <br></br>       
+            <div class="row" >
+                <div class="col-sm-6" >
+                    <div class = "InnerLeft">                
+                        <h3><div class = "ptext"><center>Humidity</center></div></h3>
+                        <a href = "humidity.html"><img src="images/Latitude Vs Humidity Plot.png"  style ="width: 100%",  alt ="Latitude Vs. Humidity"/></a>
+                        <h3><div class = "ptext"><center>vs. Max Temparature</center></div></h3>
+                        <a href="max_temparature.html"><img src= "images/Latitude Vs Temparature Plot.png"  style ="width: 100%", alt ="Latitude Vs. Temparature"/></a>   
+                        </div>
+                </div>
+                
+    
+                <div class="col-sm-6" >
+                    <div class="InnerRight">
+                        <h3><div class = "ptext"><center>vs. Cloudiness</center></div></h3>
+                        <a href="cloudiness.html"><img src= "images/Latitude Vs Cloudiness Plot.png"  style ="width: 100%", alt ="Latitude Vs. Cloudiness"/></a>
+                        <h3><div class = "ptext"><center>vs. Winds Speed</center></div></h3>
+                        <a href="wind_speed.html"><img src= "images/Latitude Vs Winds Speed Plot.png" style ="width: 100%", alt ="Latitude Vs. Winds Speed"/></a> 
+                    </div>
+                </div> 
+            </div>
+        </div>                
+    </body>
 
-        <div class="dropdown">
-        <button class="dropbtn">Plots</button>
-        <div class="dropdown-content">
-                <a href="max_temparature.html">Max. Temparature</a>
-                <a href="humidity.html">Humidity</a>
-                <a href="cloudiness.html">Cloudiness</a>
-                <a href="wind_speed.html">Wind Speed</a>
-        </div>
-      </div>                        
-    </li>
-    </ul> 
- </div>
- <div class = "container", style="background-color: white">
-        <h1><div class = "ptext">Comparison:Latitude vs X</div></h1>
+<footer>
         <br></br>
-        <p>Click on any of the images to get an in depth analysis.</p>
-        <br></br>
-        <table>
-        <tr>
-        <td>
-                <h3><div class = "ptext"><center>vs. Humidity</center></div></h3>            
-         <a href = "humidity.html"><img src="images/Latitude Vs Humidity Plot.png"  style ="width: 90%",  alt ="Latitude Vs. Humidity"/></a></td>
-        </td>
-        <td>  
-                <h3><div class = "ptext"><center>vs. Max Temparature</center></div></h3>       
-        <a href="max_temparature.html"><img src= "images/Latitude Vs Temparature Plot.png"  style ="width: 90%", alt ="Latitude Vs. Temparature"/></a>
-        </td>
-        </tr>
-        
-        
-        <tr>
-        <td>
-        
-                <h3><div class = "ptext"><center>vs. Cloudiness</center></div></h3> 
-         <a href="cloudiness.html"><img src= "images/Latitude Vs Cloudiness Plot.png"  style ="width: 90%", alt ="Latitude Vs. Cloudiness"/></a>
-        </td>
-        <td>
-                <h3><div class = "ptext"><center>vs. Winds Speed</center></div></h3>       
-        <a href="wind_speed.html"><img src= "images/Latitude Vs Winds Speed Plot.png" style ="width: 90%", alt ="Latitude Vs. Winds Speed"/></a>
-        </td>
-        </tr>
-        </table>
-        </div>
+</footer>
